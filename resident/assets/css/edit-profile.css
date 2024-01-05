@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: auto;
+  height: 100%;
+  max-width: 1550px;
+  width: 100%;
+  background: white;
+}
+
+.wrapper .edit-main {
+  margin: 1em 0;
+  width: 100%;
+  height: 100vh;
+  padding: 35px 45px;
+  display: flex;
+}
+
+.wrapper .edit-main .side {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #c6c6c6;
+  width: 350px;
+  padding-top: 55px;
+}
+
+.wrapper .edit-main .side h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.wrapper .edit-main .side a {
+  text-decoration: none;
+  color: #000;
+  line-height: 2;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.wrapper .edit-main .side a:hover {
+  color: #4c6085;
+  font-weight: bold;
+}
+
+.wrapper .edit-main .form {
+  padding: 15px 45px;
+  width: 850px;
+}
+
+.wrapper .edit-main .form .user-img {
+  width: 100%;
+}
+
+.wrapper .edit-main .form .user-img #profileDisplay {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 10px 0;
+  border-radius: 50%;
+  margin-bottom: 55px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.wrapper .edit-main .form .user-img form {
+  position: absolute;
+  top: 170%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper .edit-main .form .user-img .user-details {
+  text-align: center;
+  margin-top: 290px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #c6c6c6;
+  width: 100%;
+}
+
+.wrapper .edit-main .form .user-img .user-details .user-name {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.wrapper .edit-main .form .field {
+  width: 100%;
+  display: flex;
+  margin: 0 0 15px;
+}
+
+.wrapper .edit-main .form .field .success-msg {
+  border: 1px solid #d1ded6;
+  width: 100%;
+  background: #e2f6e9;
+  color: #649b7c;
+  padding: 1em .5em;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1em;
+  font-weight: 500;
+}
+
+.wrapper .edit-main .form .field .error-msg {
+  border: 1px solid #f3d8d8;
+  width: 100%;
+  background: #f3d8d8;
+  color: #c0174f;
+  padding: 1em .5em;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 1em;
+  font-weight: 500;
+}
+
+.wrapper .edit-main .form .field label {
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  width: 250px;
+}
+
+.wrapper .edit-main .form .field input {
+  width: 100%;
+  outline: none;
+  border: 1px solid #c6c6c6;
+  padding: .5em 1em;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.wrapper .edit-main .form .btn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper .edit-main .form .btn a {
+  text-decoration: none;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+  background: red;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+  padding: .5em 1em;
+  text-transform: uppercase;
+}
+
+.wrapper .edit-main .form input[type=submit] {
+  padding: .5em 1em;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: #4c6085;
+  color: white;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif !important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.wrapper .edit-main .form #form-pass {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 750px) {
+  .edit-main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .side {
+    border: none;
+    width: 100% !important;
+    padding: 1em 2em;
+  }
+  .side h1 {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=edit-profile.css.map */
