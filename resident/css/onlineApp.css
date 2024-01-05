@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.content {
+  background-color: #fefefe;
+  border-radius: 3px;
+  margin: auto;
+  border: black;
+  padding: 25px;
+  position: relative;
+}
+
+.content .businessEdit-content {
+  display: flex;
+  justify-content: center;
+}
+
+.content .item {
+  margin-bottom: 25px;
+}
+
+.content .details {
+  margin-top: 10px;
+}
+
+.content > h2 {
+  margin-bottom: 45px;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #4c6085;
+}
+
+.content li {
+  line-height: 2;
+  letter-spacing: .5px;
+}
+
+.content .form {
+  width: 100%;
+  
+}
+
+.content .form .element {
+  max-width: 100%;
+  margin: 25px 15px;
+}
+
+.content .form .element label {
+  display: block;
+  margin-bottom: 5px;
+  letter-spacing: .5px;
+  font-weight: bold;
+}
+
+.content .form .element input,
+.content .form .element textarea {
+  /* border: 1px solid #b3b3b3; */
+  border-radius: 3px;
+  outline: none;
+  padding: .5em 1em;
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.content .form .element textarea {
+  height: 150px;
+}
+
+.content .form .element input[type=text] {
+  text-transform: capitalize;
+}
+
+.content .form .element input[type=submit] {
+  border: none;
+  border-radius: 3px;
+  padding: .5em 1em;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #4c6085;
+  color: #FFF;
+}
+
+.content .form .btn {
+  max-width: 100%;
+  /* margin: 15px; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content .form .btn a {
+  cursor: pointer;
+}
+
+.content .form .btn #close-btn {
+  padding: .5em 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  background-color: red;
+  margin-right: 3px;
+  color: #FFF;
+  outline: none;
+  text-decoration: none;
+}
+
+.content .form .btn input[type=submit] {
+  background-color: #4c6085;
+  color: #FFF;
+  outline: none;
+  padding: .5em 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+
+.complaints-container {
+  max-width: 800px;
+  margin: auto;
+  /* padding: 15px 35px 35px; */
+}
+
+.complaints-container .complaints-header {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 25px;
+  text-transform: uppercase;
+  color: #4c6085;
+}
+
+.complaints-container .elements {
+  display: flex;
+  gap: 1em;
+}
+
+.complaints-container .elements .row {
+  width: 100%;
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.complaints-container .elements .row label {
+  display: block;
+  font-size: 1rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 2;
+}
+
+.complaints-container .elements .row input {
+  padding: 0.5em;
+  width: 100%;
+  outline: none;
+  /* border: 1px solid rgba(191, 191, 191, 0.8); */
+  font-size: 1rem;
+}
+
+.complaints-container .elements .row textarea {
+  min-width: 100%;
+  height: 150px;
+  outline: none;
+  padding: 0.5em;
+  /* border: 1px solid rgba(191, 191, 191, 0.8); */
+  border-radius: 3px;
+}
+
+.complaints-container .button {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3px;
+}
+
+.complaints-container .button #close-btn {
+  padding: .5em 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  background-color: red;
+  color: #FFF;
+  outline: none;
+  text-decoration: none;
+}
+
+.complaints-container .button input[type=submit] {
+  padding: .5em 1em;
+  border: none;
+  border-radius: 3px;
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: #4c6085;
+  transition: all .3s;
+  transition-property: background-color, color;
+  outline: none;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+/*# sourceMappingURL=onlineApp.css.map */
